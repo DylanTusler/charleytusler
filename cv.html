@@ -60,6 +60,23 @@
             padding: 20px;
             border-radius: 10px;
         }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 10px 30px;
+        }
+        .skill-name {
+            font-weight: bold;
+        }
+        .skill-desc {
+            display: block;
+            color: #bbb;
+            font-size: 0.95em;
+        }
+        .job-meta {
+            color: #f39c12;
+            font-weight: normal;
+        }
         @media (max-width: 768px) {
             body {
                 padding: 16px;
@@ -102,64 +119,78 @@
         </div>
         <div class="intro-text">
             <h1>Charley Tusler - Professional CV</h1>
-            <h2>Vision & Lighting Technician</h2>
+            <h2>Vision Technician &amp; Emerging Designer</h2>
             <p>
-                I am an aspiring vision and lighting designer based in Brisbane. I've had the opportunity to work on a diverse range of events, from corporate functions and theatre productions to large-scale music festivals. Specializing in vision, I excel in roles such as vision switcher, camera and PTZ operator, and LED screen technician, collaborating with teams of all sizes to deliver high-quality shows. In addition to my expertise in vision, I have hands-on experience in lighting and audio setup, as well as operating for smaller events. As my career evolves, I am committed to expanding my skill set and becoming a versatile, multi-talented designer and operator.
+                I am a Meanjin (Brisbane) based vision technician and emerging designer with hands-on experience across all technical fields. I've worked on events ranging from student theatre to large-scale festivals, both independently and as part of diverse teams. Specialising in vision, I work as an LED screen technician, camera and PTZ operator and vision switcher, and I'm increasingly designing vision systems and content for theatre. I also bring practical experience in lighting, audio and backline, and I'm committed to growing into a versatile designer and technician.
             </p>
         </div>
     </div>
+
+    <h2 class="section-title">Work Experience</h2>
+    <div class="job">
+        <h3 class="job-title">Vision/Lighting Technician - Twisted Pair Productions <span class="job-meta">(2026 - Present)</span></h3>
+    </div>
+    <div class="job">
+        <h3 class="job-title">AV Technician - Brisbane Powerhouse <span class="job-meta">(2025 - Present)</span></h3>
+    </div>
+    <div class="job">
+        <h3 class="job-title">Vision/LED Technician - IJS Productions <span class="job-meta">(2024 - Present)</span></h3>
+    </div>
+
+    <h2 class="section-title">Notable Events</h2>
+    <ul>
+        <li><span class="job-title">Ultra Beach Gold Coast (2024 - 2026)</span> - LED screen technician, camera/PTZ operator, vision switcher</li>
+        <li><span class="job-title">Gympie Music Muster (2024 &amp; 2025)</span> - LED screen technician, camera/PTZ operator, vision switcher</li>
+        <li><span class="job-title">Rolling Sets (2025)</span> - LED screen system technician &amp; PTZ operator</li>
+        <li><span class="job-title">Outback Sounds, Charleville (2025)</span> - Lighting dimmer technician</li>
+        <li><span class="job-title">Big Pineapple Festival (2024)</span> - Backline technician</li>
+    </ul>
+    <p><strong>Other credits:</strong> Summersalt Festival, Luminous Festival, Toowoomba Carnival of Flowers, Iris Van Herpen GOMA exhibition opening, GOPIO India Day Fair, Caloundra Music Festival.</p>
+
+    <h2 class="section-title">Design &amp; Volunteer Work</h2>
+    <div class="job">
+        <h3 class="job-title">Lighting Assistant/Vision Operator - Dark Mofo <span class="job-meta">(2026)</span></h3>
+        <p>Worked with the festival's lighting designer to implement lighting, communicating with artists, festival production and crew. Vision switcher and PTZ operator for <em>Electron</em>.</p>
+    </div>
+    <div class="job">
+        <h3 class="job-title">Vision Designer - QUT Acting, <em>Incognito</em> <span class="job-meta">(2026)</span></h3>
+        <p>Worked with the director and creative team to design the vision system and content for QUT Acting's production of <em>Incognito</em>.</p>
+    </div>
+    <div class="job">
+        <h3 class="job-title">Vision Designer - Freshblood Festival, <em>Winging It</em> <span class="job-meta">(2026)</span></h3>
+        <p>Collaborated with the writer/director and other creatives to create the visuals for the play <em>Winging It</em>.</p>
+    </div>
+
+    <h2 class="section-title">Technical Skills</h2>
+    <h3>Software</h3>
+    <div class="skills-grid">
+        <div><span class="skill-name">Resolume Arena</span><span class="skill-desc">Live video playback and VJ media server</span></div>
+        <div><span class="skill-name">QLab</span><span class="skill-desc">Theatre show control and cueing</span></div>
+        <div><span class="skill-name">TouchDesigner</span><span class="skill-desc">Real-time generative and interactive visuals</span></div>
+        <div><span class="skill-name">Adobe After Effects, Premiere Pro, Photoshop</span><span class="skill-desc">Motion graphics, video editing, image design</span></div>
+        <div><span class="skill-name">Blender (2D &amp; 3D)</span><span class="skill-desc">Modelling, animation and rendered content</span></div>
+        <div><span class="skill-name">NovaStar LCT &amp; COEX VMP</span><span class="skill-desc">LED screen configuration and mapping</span></div>
+        <div><span class="skill-name">grandMA3 &amp; ETC Ion (basic)</span><span class="skill-desc">Lighting console programming and operation</span></div>
+        <div><span class="skill-name">Microsoft Office</span><span class="skill-desc">Paperwork, schedules and presentations</span></div>
+    </div>
+
+    <h3>Hardware</h3>
+    <div class="skills-grid">
+        <div><span class="skill-name">Blackmagic ATEM &amp; URSA</span><span class="skill-desc">Live vision switching and cinema cameras</span></div>
+        <div><span class="skill-name">Roland switchers</span><span class="skill-desc">Compact live vision mixing</span></div>
+        <div><span class="skill-name">NovaStar processors</span><span class="skill-desc">LED wall signal processing and scaling</span></div>
+        <div><span class="skill-name">Panasonic projectors</span><span class="skill-desc">Projection setup and alignment</span></div>
+        <div><span class="skill-name">Bolin PTZ cameras</span><span class="skill-desc">Remote camera operation and control</span></div>
+        <div><span class="skill-name">LED screen panels</span><span class="skill-desc">Build, configure and troubleshoot multiple brands</span></div>
+    </div>
+
+    <h3>General Skills</h3>
+    <p>Working in a team, communicating between team members and clients, working under pressure and time constraints, problem-solving and error checking, managing hazards, delegating tasks and managing people.</p>
 
     <h2 class="section-title">Education</h2>
     <ul>
         <li>Bachelor of Fine Arts in Technical Production - QUT (2024 - Present)</li>
         <li>Cert III Screen and Media - TAFE Queensland (2021)</li>
     </ul>
-
-    <h2 class="section-title">Disciplinary Experience</h2>
-    <h3>Programs/Software Skills:</h3>
-    <p>QLAB, Resolume, Smart LCT</p>
-    <h3>Equipment/Hardware Skills:</h3>
-    <p>Blackmagic ATEM Studio, Tricaster, MA3, Roland V60HD, Novastar Processors (VX100/VX6s), Blackmagic cameras (URSA), Bolin PTZ Cameras</p>
-
-    <h2 class="section-title">Professional Experience</h2>
-    <div class="job">
-        <h3 class="job-title">Assistant Stage Manager - Caloundra Music Festival (2021 – 2023)</h3>
-        <p>Moving equipment on and off stage, managing hazzards, working in a team, supporting artists, and working to deadlines.</p>
-    </div>
-    <div class="job">
-        <h3 class="job-title">Lighting/Audio Operator - Freshblood Festival (2024)</h3>
-        <p>Working in a team, using QLAB and MANTRA lighting desk, setting up and packing down audio equipment.</p>
-    </div>
-    <div class="job">
-        <h3 class="job-title">Vision Mixer - QUT Music Showcase (2024)</h3>
-        <p>Working in a team, operating Tricaster vision switcher, communicating with a live director.</p>
-    </div>
-    <div class="job">
-        <h3 class="job-title">Vision Technician - IJS Productions (2024 – Present)</h3>
-        <p>Notable Experiences:</p>
-            <ul>
-                <li>Summersalt Festival (Camera Operator)</li>
-                <li>Ultra Beach Gold Coast (LED Screen Technician)</li>
-                <li>Iris Van Herpen GOMA Exhibition Opening (Camera Operator)</li>
-                <li>Luminous Festival (Camera Operator)</li>
-                <li>GOPIO India Day Fair (LED Screen Technician, Audio/Vision Operator)</li>
-                <li>Gympie Music Muster (Camera Operator, PTZ Controller, Vision Switcher)</li>
-                <li>Toowoomba Carnival of Flowers (Camera Operator, PTZ Controller, Vision Switcher)</li>
-            </ul>
-    </div>
-    <div class="job">
-        <h3 class="job-title">Backline Technician - Big Pineapple Festival (2024)</h3>
-        <p>Handling all backline on stage, executing changeovers, assisting artists, setting up and packing down drum risers.</p>
-    </div>
-
-    <h2 class="section-title">Complementary Experience</h2>
-    <p>
-        <strong>Transferrable Skills:</strong> Working in a team, good communication between team members and clients, ability to work under pressure and time constraints, time management, problem-solving and error checking, managing hazards, organisation skills, digital literacy (Word, Excel, PowerPoint etc).
-    </p>
-
-    <div class="job">
-        <h3 class="job-title">Delivery Expert - Domino's Currimundi (2021 – 2024)</h3>
-        <p>Working with a variety of people in a large team, customer service, solving customer issues, and following food safety regulations.</p>
-    </div>
 </body>
 </html>
