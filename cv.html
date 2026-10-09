@@ -65,6 +65,19 @@
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 10px 30px;
         }
+        .skills-grid > div {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        .logo {
+            flex: 0 0 28px;
+            height: 28px;
+            margin-top: 2px;
+            background-color: #ddd;
+            -webkit-mask: var(--logo) center / contain no-repeat;
+            mask: var(--logo) center / contain no-repeat;
+        }
         .skill-name {
             font-weight: bold;
         }
@@ -164,24 +177,24 @@
     <h2 class="section-title">Technical Skills</h2>
     <h3>Software</h3>
     <div class="skills-grid">
-        <div><span class="skill-name">Resolume Arena</span><span class="skill-desc">Live video playback and VJ media server</span></div>
-        <div><span class="skill-name">QLab</span><span class="skill-desc">Theatre show control and cueing</span></div>
-        <div><span class="skill-name">TouchDesigner</span><span class="skill-desc">Real-time generative and interactive visuals</span></div>
-        <div><span class="skill-name">Adobe After Effects, Premiere Pro, Photoshop</span><span class="skill-desc">Motion graphics, video editing, image design</span></div>
-        <div><span class="skill-name">Blender (2D &amp; 3D)</span><span class="skill-desc">Modelling, animation and rendered content</span></div>
-        <div><span class="skill-name">NovaStar LCT &amp; COEX VMP</span><span class="skill-desc">LED screen configuration and mapping</span></div>
-        <div><span class="skill-name">grandMA3 &amp; ETC Ion (basic)</span><span class="skill-desc">Lighting console programming and operation</span></div>
-        <div><span class="skill-name">Microsoft Office</span><span class="skill-desc">Paperwork, schedules and presentations</span></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/resolume.svg')"></span><div><span class="skill-name">Resolume Arena</span><span class="skill-desc">Live video playback and VJ media server</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/qlab.svg')"></span><div><span class="skill-name">QLab</span><span class="skill-desc">Theatre show control and cueing</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/touchdesigner.svg')"></span><div><span class="skill-name">TouchDesigner</span><span class="skill-desc">Real-time generative and interactive visuals</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/adobe.svg')"></span><div><span class="skill-name">Adobe After Effects, Premiere Pro, Photoshop</span><span class="skill-desc">Motion graphics, video editing, image design</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/blender.svg')"></span><div><span class="skill-name">Blender (2D &amp; 3D)</span><span class="skill-desc">Modelling, animation and rendered content</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/novastar.svg')"></span><div><span class="skill-name">NovaStar LCT &amp; COEX VMP</span><span class="skill-desc">LED screen configuration and mapping</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/grandma3.svg')"></span><div><span class="skill-name">grandMA3 &amp; ETC Ion (basic)</span><span class="skill-desc">Lighting console programming and operation</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/microsoft-office.svg')"></span><div><span class="skill-name">Microsoft Office</span><span class="skill-desc">Paperwork, schedules and presentations</span></div></div>
     </div>
 
     <h3>Hardware</h3>
     <div class="skills-grid">
-        <div><span class="skill-name">Blackmagic ATEM &amp; URSA</span><span class="skill-desc">Live vision switching and cinema cameras</span></div>
-        <div><span class="skill-name">Roland switchers</span><span class="skill-desc">Compact live vision mixing</span></div>
-        <div><span class="skill-name">NovaStar processors</span><span class="skill-desc">LED wall signal processing and scaling</span></div>
-        <div><span class="skill-name">Panasonic projectors</span><span class="skill-desc">Projection setup and alignment</span></div>
-        <div><span class="skill-name">Bolin PTZ cameras</span><span class="skill-desc">Remote camera operation and control</span></div>
-        <div><span class="skill-name">LED screen panels</span><span class="skill-desc">Build, configure and troubleshoot multiple brands</span></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/blackmagic.svg')"></span><div><span class="skill-name">Blackmagic ATEM &amp; URSA</span><span class="skill-desc">Live vision switching and cinema cameras</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/roland.svg')"></span><div><span class="skill-name">Roland switchers</span><span class="skill-desc">Compact live vision mixing</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/novastar.svg')"></span><div><span class="skill-name">NovaStar processors</span><span class="skill-desc">LED wall signal processing and scaling</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/panasonic.svg')"></span><div><span class="skill-name">Panasonic projectors</span><span class="skill-desc">Projection setup and alignment</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/bolin.svg')"></span><div><span class="skill-name">Bolin PTZ cameras</span><span class="skill-desc">Remote camera operation and control</span></div></div>
+        <div><span class="logo" style="--logo: url('cv_files/logos/led-panel.svg')"></span><div><span class="skill-name">LED screen panels</span><span class="skill-desc">Build, configure and troubleshoot multiple brands</span></div></div>
     </div>
 
     <h3>General Skills</h3>
