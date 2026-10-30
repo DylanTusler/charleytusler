@@ -60,22 +60,24 @@
             padding: 20px;
             border-radius: 10px;
         }
-        .skills-grid {
+        .skills-columns {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 10px 30px;
+            grid-template-columns: 1fr 1fr;
+            gap: 0 40px;
         }
-        .skill-name {
-            font-weight: bold;
-        }
-        .skill-desc {
-            display: block;
-            color: #bbb;
-            font-size: 0.95em;
+        .skills-columns li {
+            margin-bottom: 6px;
         }
         .job-meta {
             color: #f39c12;
             font-weight: normal;
+        }
+        .contact a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
         }
         @media (max-width: 768px) {
             body {
@@ -96,6 +98,9 @@
             }
             .intro-text {
                 padding: 16px;
+            }
+            .skills-columns {
+                grid-template-columns: 1fr;
             }
             h1 {
                 font-size: 1.6em;
@@ -120,9 +125,6 @@
         <div class="intro-text">
             <h1>Charley Tusler - Professional CV</h1>
             <h2>Vision Technician &amp; Emerging Designer</h2>
-            <p>
-                I am a Meanjin (Brisbane) based vision technician and emerging designer with hands-on experience across all technical fields. I've worked on events ranging from student theatre to large-scale festivals, both independently and as part of diverse teams. Specialising in vision, I work as an LED screen technician, camera and PTZ operator and vision switcher, and I'm increasingly designing vision systems and content for theatre. I also bring practical experience in lighting, audio and backline, and I'm committed to growing into a versatile designer and technician.
-            </p>
         </div>
     </div>
 
@@ -162,26 +164,31 @@
     </div>
 
     <h2 class="section-title">Technical Skills</h2>
-    <h3>Software</h3>
-    <div class="skills-grid">
-        <div><span class="skill-name">Resolume Arena</span><span class="skill-desc">Live video playback and VJ media server</span></div>
-        <div><span class="skill-name">QLab</span><span class="skill-desc">Theatre show control and cueing</span></div>
-        <div><span class="skill-name">TouchDesigner</span><span class="skill-desc">Real-time generative and interactive visuals</span></div>
-        <div><span class="skill-name">Adobe After Effects, Premiere Pro, Photoshop</span><span class="skill-desc">Motion graphics, video editing, image design</span></div>
-        <div><span class="skill-name">Blender (2D &amp; 3D)</span><span class="skill-desc">Modelling, animation and rendered content</span></div>
-        <div><span class="skill-name">NovaStar LCT &amp; COEX VMP</span><span class="skill-desc">LED screen configuration and mapping</span></div>
-        <div><span class="skill-name">grandMA3 &amp; ETC Ion (basic)</span><span class="skill-desc">Lighting console programming and operation</span></div>
-        <div><span class="skill-name">Microsoft Office</span><span class="skill-desc">Paperwork, schedules and presentations</span></div>
-    </div>
-
-    <h3>Hardware</h3>
-    <div class="skills-grid">
-        <div><span class="skill-name">Blackmagic ATEM &amp; URSA</span><span class="skill-desc">Live vision switching and cinema cameras</span></div>
-        <div><span class="skill-name">Roland switchers</span><span class="skill-desc">Compact live vision mixing</span></div>
-        <div><span class="skill-name">NovaStar processors</span><span class="skill-desc">LED wall signal processing and scaling</span></div>
-        <div><span class="skill-name">Panasonic projectors</span><span class="skill-desc">Projection setup and alignment</span></div>
-        <div><span class="skill-name">Bolin PTZ cameras</span><span class="skill-desc">Remote camera operation and control</span></div>
-        <div><span class="skill-name">LED screen panels</span><span class="skill-desc">Build, configure and troubleshoot multiple brands</span></div>
+    <div class="skills-columns">
+        <div>
+            <h3>Software</h3>
+            <ul>
+                <li>Resolume Arena</li>
+                <li>QLab</li>
+                <li>TouchDesigner</li>
+                <li>Adobe After Effects, Premiere Pro, Photoshop</li>
+                <li>Blender (2D &amp; 3D)</li>
+                <li>NovaStar LCT &amp; COEX VMP</li>
+                <li>grandMA3 &amp; ETC Ion (basic)</li>
+                <li>Microsoft Office</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Hardware</h3>
+            <ul>
+                <li>Blackmagic ATEM &amp; URSA</li>
+                <li>Roland switchers</li>
+                <li>NovaStar processors</li>
+                <li>Panasonic projectors</li>
+                <li>Bolin PTZ cameras</li>
+                <li>LED screen panels</li>
+            </ul>
+        </div>
     </div>
 
     <h3>General Skills</h3>
@@ -191,6 +198,12 @@
     <ul>
         <li>Bachelor of Fine Arts in Technical Production - QUT (2024 - Present)</li>
         <li>Cert III Screen and Media - TAFE Queensland (2021)</li>
+    </ul>
+
+    <h2 class="section-title">Get in Touch</h2>
+    <ul class="contact">
+        <li>Email: <a href="mailto:charleytusler@gmail.com">charleytusler@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/charley-tusler-332639418/" target="_blank" rel="noopener">Charley Tusler</a></li>
     </ul>
 </body>
 </html>
