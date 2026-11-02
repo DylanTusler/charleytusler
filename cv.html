@@ -79,6 +79,25 @@
         .contact a:hover {
             text-decoration: underline;
         }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: 10px 0 20px;
+        }
+        .gallery figure {
+            margin: 0;
+        }
+        .gallery img {
+            display: block;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .gallery figcaption {
+            margin-top: 8px;
+            color: #bbb;
+        }
         @media (max-width: 768px) {
             body {
                 padding: 16px;
@@ -155,7 +174,7 @@
     <h2 class="section-title">Design &amp; Volunteer Work</h2>
     <div class="job">
         <h3 class="job-title">Lighting Assistant/Vision Operator - Dark Mofo <span class="job-meta">(2026)</span></h3>
-        <p>Worked with the festival's lighting designer to implement lighting, communicating with artists, festival production and crew. Vision switcher and PTZ operator for <em>Electron</em>.</p>
+        <p>Worked with the festival's lighting designer to implement lighting, communicating with artists, festival production and crew. Video director and PTZ operator for <em>Electron</em>.</p>
     </div>
     <div class="job">
         <h3 class="job-title">Vision Designer - QUT Acting, <em>Incognito</em> <span class="job-meta">(2026)</span></h3>
@@ -164,6 +183,16 @@
     <div class="job">
         <h3 class="job-title">Vision Designer - Freshblood Festival, <em>Winging It</em> <span class="job-meta">(2026)</span></h3>
         <p>Collaborated with the writer/director and other creatives to create the visuals for the play <em>Winging It</em>.</p>
+    </div>
+    <div class="gallery">
+        <figure>
+            <img src="cv_files/electron.jpg" alt="Electron at Dark Mofo: performers on truss tables with live camera feed projected behind" width="900" height="1200" loading="lazy">
+            <figcaption><em>Electron</em> - video director &amp; PTZ operator</figcaption>
+        </figure>
+        <figure>
+            <img src="cv_files/incognito.jpg" alt="Incognito: two actors on stage with an overhead live camera view projected behind them" width="900" height="1200" loading="lazy">
+            <figcaption><em>Incognito</em> - vision designer</figcaption>
+        </figure>
     </div>
 
     <h2 class="section-title">Technical Skills</h2>
